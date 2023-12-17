@@ -7,9 +7,9 @@
         }
 ],
     "routes": [
-      { "src": "/blogs/:id", "dest": "/server.js" },
-      { "src": "/blogs", "dest": "/server.js" },
-      { "src": "/(.*)", "dest": "/server.js" }
+      { "src": "/blogs/:id", "dest": "server.js" },
+      { "src": "/blogs", "dest": "server.js" },
+      { "src": "/(.*)", "dest": "server.js" }
     ]
   }
   
